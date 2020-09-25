@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+header img {
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 30%;
+}
+.paragraph {
+  margin: 20px 250px 20px 250px;
+}
+.application {
+  max-width: 1100px;
+  margin-left: 400px;
+}
