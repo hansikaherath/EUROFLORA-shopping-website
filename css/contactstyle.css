@@ -33,6 +33,10 @@ form #textname,
   width: 820px;
   height: 200px;
   border: 2px solid gray;
+  padding: 5px 10px 5px 5px;
+  text-align: left;
+  vertical-align: top;
+  ve
 }
 #textphone1 {
   width: 400px;

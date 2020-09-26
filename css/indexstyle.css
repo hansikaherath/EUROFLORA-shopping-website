@@ -1,68 +1,85 @@
 ﻿body {
   background-color: #a9a9a9;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar {
+header .navbar {
   height: 70px;
-  width: auto;
-  background-image: radial-gradient(white, brown);
+  width: 100%;
+  background-image: radial-gradient(white, rgba(243, 111, 111, 0.781));
 }
 
-.logo img {
-  width: 60px;
-  height: 40px;
+header .logo img {
+  width: 200px;
+  align-items: center;
+  margin-left: 60px;
+  float: left;
+  padding-top: 12px;
 }
-.nav {
+nav {
   text-align: right;
+  padding-top: 12px;
 }
-.nav ul {
+nav ul {
   display: inline-block;
   list-style-type: none;
 }
-.nav ul li {
+nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-.nav ul li a {
+nav ul li a {
   text-decoration: none;
-  color: gray;
+  color: brown;
 }
-.nav ul li i.fas {
-  border: 1px solid red;
-  color: burlywood;
+nav ul li i.fas {
+  border: none;
+  color: brown;
 }
+/*
 .fa-phone {
   color: salmon;
-}
+}*/
 
 .bodysection {
-  max-width: 1200px;
+  max-width: 1000px;
   height: auto;
   padding-left: 25px;
   padding-right: 25px;
   align-content: center;
   background-color: white;
+  margin-top: 0px;
+  margin-left: 250px;
 }
 .section2 {
   color: saddlebrown;
+  padding: 15px 0 12px 15px;
 }
 .section2 p {
   padding-left: 10px;
-  font-size: 15px;
-  font-family: Verdana;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 100;
 }
 .boldtext {
   font: bold;
-  font-size: 20px;
+  font-size: 32px;
 }
 .section3 {
   display: flex;
-  width: 1000px;
+  width: 800px;
   height: 300px;
 }
 .leftpic {
   float: left;
   vertical-align: middle;
+  height: 300px;
+  width: 800px;
+}
+.rightpic {
+  border: 1px solid gray;
+  height: 258px;
 }
 footer {
   background-color: black;
@@ -74,4 +91,6 @@ footer p {
   font-style: oblique;
   text-align: center;
   align-content: center;
+  color: aliceblue;
+  padding-top: 8px;
 }
