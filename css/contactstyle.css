@@ -13,5 +13,48 @@ header img {
 }
 .application {
   max-width: 1100px;
-  margin-left: 400px;
+  margin-left: 380px;
+}
+form #name {
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+}
+form #textname,
+#textemail,
+#textorder {
+  width: 820px;
+  height: 35px;
+  border: 2px solid gray;
+}
+#textmessage {
+  width: 820px;
+  height: 200px;
+  border: 2px solid gray;
+}
+#textphone1 {
+  width: 400px;
+  height: 35px;
+  border: 2px solid gray;
+}
+#textphone2 {
+  width: 400px;
+  height: 35px;
+  border: 2px solid gray;
+}
+#choosefile {
+  padding: 6px 6px 6px 6px;
+
+  border: none;
+  background-color: skyblue;
+  font-size: 15px;
+}
+#start {
+  padding: 6px 6px 6px 6px;
+  margin-left: 45%;
+  border: none;
+  background-color: skyblue;
+  font-size: 15px;
 }
