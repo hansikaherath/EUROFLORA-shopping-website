@@ -81,6 +81,31 @@ nav ul li i.fas {
   border: 1px solid gray;
   height: 250px;
 }
+.container {
+  padding-top: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .box {
+  position: relative;
+  width: 240px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: #a9a9a9;
+}
+.container .box .imgBox {
+  position: relative;
+  overflow: hidden;
+}
+#image {
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  float: left;
+}
 footer {
   background-color: black;
   height: 30px;
