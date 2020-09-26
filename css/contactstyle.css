@@ -1,9 +1,42 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: white;
 }
-header img {
+
+header .navbar {
+  height: 70px;
+  width: 100%;
+  background-image: radial-gradient(white, rgba(243, 111, 111, 0.781));
+}
+
+header .logo img {
+  width: 200px;
+  align-items: center;
+  margin-left: 60px;
+  float: left;
+  padding-top: 12px;
+}
+header nav {
+  text-align: right;
+  padding-top: 20px;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: brown;
+}
+nav ul li i.fas {
+  border: none;
+  color: brown;
+}
+.image img {
   align-items: center;
   padding-top: 10px;
   margin-left: 30%;
@@ -21,6 +54,7 @@ form #name {
   border: none;
   font-size: 14px;
   text-align: center;
+  background-color: white;
 }
 form #textname,
 #textemail,
@@ -36,7 +70,6 @@ form #textname,
   padding: 5px 10px 5px 5px;
   text-align: left;
   vertical-align: top;
-  ve
 }
 #textphone1 {
   width: 400px;

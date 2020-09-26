@@ -1,0 +1,33 @@
+header .navbar {
+  height: 70px;
+  width: 100%;
+  background-image: radial-gradient(white, rgba(243, 111, 111, 0.781));
+}
+
+header .logo img {
+  width: 200px;
+  align-items: center;
+  margin-left: 60px;
+  float: left;
+  padding-top: 12px;
+}
+nav {
+  text-align: right;
+  padding-top: 12px;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: brown;
+}
+nav ul li i.fas {
+  border: none;
+  color: brown;
+}

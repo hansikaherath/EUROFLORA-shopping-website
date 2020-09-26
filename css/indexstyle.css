@@ -68,18 +68,18 @@ nav ul li i.fas {
 }
 .section3 {
   display: flex;
-  width: 800px;
+  width: 900px;
   height: 300px;
 }
-.leftpic {
+.leftpic img {
   float: left;
   vertical-align: middle;
-  height: 300px;
-  width: 800px;
+  height: 250px;
+  width: 750px;
 }
-.rightpic {
+.rightpic img {
   border: 1px solid gray;
-  height: 258px;
+  height: 250px;
 }
 footer {
   background-color: black;
