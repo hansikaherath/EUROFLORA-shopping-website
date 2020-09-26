@@ -81,12 +81,18 @@ nav ul li i.fas {
   border: 1px solid gray;
   height: 250px;
 }
+.section4 p {
+  color: saddlebrown;
+  text-justify: auto;
+  margin-left: 15px;
+}
 .container {
   padding-top: 20px;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 15px;
 }
 .container .box {
   position: relative;
@@ -95,16 +101,79 @@ nav ul li i.fas {
   box-sizing: border-box;
   display: inline-block;
   box-shadow: #a9a9a9;
+  border: 2px solid rgb(218, 213, 213);
+  margin: 5px 0 5px 0;
 }
 .container .box .imgBox {
   position: relative;
   overflow: hidden;
 }
 #image {
-  width: 250px;
-  height: 250px;
-  border: 2px solid white;
+  width: 220px;
+  height: 220px;
+  border: 2px solid rgba(255, 255, 255, 0.452);
   float: left;
+}
+#flowertitle {
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: 500;
+}
+.details {
+  font-size: 15px;
+  color: brown;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.exclamation {
+  padding-left: 10px;
+  color: brown;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.exclamation p {
+  float: right;
+  border: 1px solid brown;
+  color: white;
+  background-color: rgba(155, 75, 10, 0.918);
+  margin: 2px 5px 2px 3px;
+  /*padding: 2px 2px 2px 6px;*/
+  white-space: nowrap;
+  position: relative;
+  margin: 0 5px 0 10px;
+  display: inline-block;
+  height: 25px;
+  border-radius: 0 5px 5px 0;
+  padding: 0 25px 0 15px;
+
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+
+  line-height: 23px;
+}
+/*
+.exclamation p:after {
+  position: absolute;
+  right: 0;
+  margin: 1px 7px;
+  font-weight: bold;
+  font-size: 19px;
+  content: "\00D7";
+}*/
+.exclamation p:before {
+  position: absolute;
+  content: "\25CF";
+  color: white;
+  text-shadow: 0 0 1px #333;
+  font-size: 11px;
+  line-height: 0px;
+  text-indent: 12px;
+  left: -15px;
+  width: 1px;
+  height: 0px;
+  border-right: 14px solid rgba(155, 75, 10, 0.918);
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
 }
 footer {
   background-color: black;
