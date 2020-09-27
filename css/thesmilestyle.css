@@ -31,3 +31,45 @@ nav ul li i.fas {
   border: none;
   color: brown;
 }
+.column1 {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  height: 300px;
+}
+.column1 img {
+  padding-left: 60px;
+  width: 380px;
+  height: auto;
+}
+.column2 {
+  float: left;
+  width: 55%;
+  padding-right: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.priceTag {
+  border-top: 3px double #999;
+  border-right: 3px double #999;
+  border-bottom: 3px double #999;
+  border-left: 3px double #999;
+  margin: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.brownBox {
+  background-color: #6a2500;
+  padding: 10px 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+}
