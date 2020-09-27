@@ -1,3 +1,6 @@
+body {
+  background-color: #999;
+}
 header .navbar {
   height: 70px;
   width: 100%;
@@ -31,6 +34,16 @@ nav ul li i.fas {
   border: none;
   color: brown;
 }
+.bodysection {
+  max-width: 1200px;
+  height: 750px;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-content: center;
+  background-color: white;
+  margin-top: 0px;
+  margin-left: 120px;
+}
 .column1 {
   float: left;
   width: 40%;
@@ -57,15 +70,18 @@ nav ul li i.fas {
 }
 
 .priceTag {
-  border-top: 3px double #999;
-  border-right: 3px double #999;
-  border-bottom: 3px double #999;
-  border-left: 3px double #999;
+  border: 3px solid #999;
   margin: 10px;
-  width: 200px;
+  width: 180px;
   border-radius: 5px;
 }
-
+.priceTag:hover {
+  background-color: #c0c0c0;
+}
+#circle {
+  margin-left: 200px;
+  margin-top: 16px;
+}
 .brownBox {
   background-color: #6a2500;
   padding: 10px 30px;
