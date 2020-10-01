@@ -74,6 +74,7 @@ nav ul li i.fas {
 }
 .leftpic p {
   background-color: aliceblue;
+  opacity: 0.6;
   float: right;
   padding-top: 12px;
   margin-top: -100px;
@@ -94,6 +95,8 @@ nav ul li i.fas {
   color: #333;
   font-size: 10px;
   position: absolute;
+  background-color: aliceblue;
+  opacity: 0.6;
 }
 .section4 p {
   color: saddlebrown;
@@ -111,7 +114,7 @@ nav ul li i.fas {
 .container .box {
   position: relative;
   width: 240px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   box-sizing: border-box;
   display: inline-block;
 
