@@ -73,15 +73,22 @@ form #textname,
   vertical-align: top;
   margin-left: 20px;
 }
-
+/*
 #textphone1 {
   width: 400px;
   height: 35px;
   border: 2px solid gray;
   margin-left: 20px;
 }
+*/
+select {
+  border: 2px solid gray;
+  width: 300px;
+  height: 35px;
+  margin-left: 20px;
+}
 #textphone2 {
-  width: 400px;
+  width: 500px;
   height: 35px;
   border: 2px solid gray;
 }

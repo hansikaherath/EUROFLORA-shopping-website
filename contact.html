@@ -49,9 +49,11 @@
         </nav>
       </div>
     </header>
+
     <section class="image">
       <img src="images\euroflora-logo.png" alt="" />
     </section>
+
     <section class="paragraph">
       <p id="text">
         We are Online! Welcome to Instant Answer Messaging. During the opening
@@ -60,6 +62,7 @@
         dedicated to the customers, you received in the summary email.
       </p>
     </section>
+
     <section class="application">
       <form action="">
         <label type="submit" value="*" id="name"> Name*</label>
@@ -67,12 +70,18 @@
         <label type="submit" id="name" value="Email*">Email*</label>
         <input type="email" name="textemail" id="textemail" /><br /><br />
         <label type="submit" id="name" value="Phone*">Phone*</label>
-        <input
+        <!-- <input
           type="number"
           name="textphone1"
           id="textphone1"
           placeholder="Sri Lanka +94"
-        />
+        />-->
+        <select name="p1" id="p1">
+          <option value="">Sri Lanka +94</option>
+          <option value="">Sri Lanka +94</option>
+          <option value="">Sri Lanka +94</option>
+          <option value="">Sri Lanka +94</option>
+        </select>
         <input
           type="text"
           name="textphone2"
@@ -93,7 +102,7 @@
           id="textmessage"
           placeholder="Describe your request accretly to receive better info"
         /><br /><br />
-        <input type="submit" value="Attachment" id="name" />
+        <label type="submit" value="" id="name">Attachment</label>
         <input type="button" value="Choose file" id="choosefile" />
         <input type="submit" value="No file choose" id="name" /><br /><br />
         <input type="button" value="Start" id="start" />
